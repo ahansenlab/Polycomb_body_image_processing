@@ -20,7 +20,7 @@ conda activate airy_processing
 ### Get the library
 The following blocks with will walk through the library installation. 
 ```bash
-git clone git@github.com:ahansenlab/Polycomb_body_image_processing
+git clone git@github.com:ahansenlab/Polycomb_body_image_processing.git AiryProcessing
 cd AiryProcessing
 ```
 
