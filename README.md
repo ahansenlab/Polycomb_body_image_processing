@@ -4,7 +4,7 @@ AiryProcessing is a library for processing Airyscan data using CPU/GPU paralleli
 
 
 
-This library is written as an editable ```airy_pipeline``` package with scripts for an analysis pipeline and importable functions for tools like deskewing and deconvolution. See ```example/tune_parameters.ipynb``` to explore and tune such methods.
+This library is written as an editable ```airy_pipeline``` package with scripts for an analysis pipeline and importable functions for tools like resampling and deconvolution. See ```example/tune_parameters.ipynb``` to explore and tune such methods.
 
 
 ## Installation
