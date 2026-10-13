@@ -1,0 +1,5 @@
+/mnt/marieshares/Miles/20260602_PcG_bodies/beads/20260602_beads_641_SR2Y-01-processed.czi
+/mnt/marieshares/Miles/20260602_PcG_bodies/beads/20260602_beads_641_SR2Y-02-processed.czi
+/mnt/marieshares/Miles/20260602_PcG_bodies/beads/20260602_beads_641_SR2Y-03-processed.czi
+/mnt/marieshares/Miles/20260602_PcG_bodies/beads/20260602_beads_641_SR2Y-04-processed.czi
+/mnt/marieshares/Miles/20260602_PcG_bodies/beads/20260602_beads_641_SR2Y-05-processed.czi

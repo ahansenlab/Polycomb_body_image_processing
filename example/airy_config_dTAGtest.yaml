@@ -1,0 +1,113 @@
+general:
+  time: 30.0
+  lasers:
+    0: 640
+    # 1: 640
+    # 2: 488
+    
+deconvolution:
+  iters: 20
+  alpha: 0.000001
+
+deskewing:
+  angle: 0
+  pixel: 145
+  step: 300
+  order: 1
+
+
+isotropic:
+  pixel: 55.880923
+  step: 200
+  order: 1
+
+segmentation:
+  channel: 0
+  intensity:
+    lower: 400 #650 for UNT, 400 for dTAG
+    upper: 2000 #2000 for dTAG and 5000 UNT
+  sigma: 5
+  erode: 28
+  dilate: 28
+  volume:
+    lower: 1500000.0
+    upper: 5000000.0
+  pad: 5
+
+
+detection:
+  channels:
+    0:
+      radius:
+        lower: 0.75
+        upper: 1.50
+      response: 100
+    # 2:
+    #   radius:
+    #     lower: 0.75
+    #     upper: 1.50
+    #   response: 400
+  nearby: 10.0
+  sister: 3.0
+
+tracking:
+  nuclei:
+    search: 25.0
+    length: 1
+  features:
+    search: 10.0
+    length: 1
+    memory: 5
+
+measuring:
+  search: 5.0
+  overlap: 5
+  bodies:
+    sigma: 5.0
+    response: 3.0
+    pct: 99.0
+    channel: 0
+
+
+movies:
+  fps: 30
+  channels:
+    0:
+      intensity:
+        lower: 100
+        upper: 30000
+      color: [255,0,255]
+    # 1:
+    #   intensity:
+    #     lower: 100
+    #     upper: 1250
+    #   color: [0,255,255]
+    # 2:
+    #   intensity:
+    #     lower: 100
+    #     upper: 1500
+    #   color: [0,255,0]
+
+beads:
+  finding:
+    channels:
+      0:
+        radius: 7.00 #default 3.00
+        response:
+          lower: 1400
+          upper: 7000 #default 2500
+      # 1:
+      #   radius: 3.00
+      #   response:
+      #     lower: 500
+      #     upper: 1500
+      # 2:
+      #   radius: 2.50
+      #   response:
+      #     lower: 250
+      #     upper: 1750
+    separation: 15.0
+    search: 3.0
+  fitting:
+    days: 7
+    alpha: 0.001
