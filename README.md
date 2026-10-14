@@ -13,7 +13,7 @@ This library is written as an editable ```airy_pipeline``` package with scripts 
 
 The library has been tested on Linux system  with ```python``` 3.10 to 3.14. To make an environment using ```conda```, one can use the following commands.
 ```
-conda create --name airy_processing python=3.14
+conda create --name airy_processing python=3.13
 conda activate airy_processing
 ```
 
